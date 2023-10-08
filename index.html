@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Weather App</title>
+</head>
+<body>
+    <header>
+        <h1>Weather App</h1>
+    </header>
+    <main>
+        <section id="search-section">
+            <input type="text" id="location-input" placeholder="Enter location (e.g., city or ZIP code)">
+            <button id="get-weather-button">Get Weather</button>
+        </section>
+        <section id="weather-section">
+            <!-- Weather data will be displayed here -->
+        </section>
+        <section id="error-section">
+            <!-- Error messages will be displayed here -->
+        </section>
+        <section id="unit-selection-section">
+            <label for="unit-toggle">Select Unit:</label>
+            <select id="unit-toggle">
+                <option value="metric">Celsius</option>
+                <option value="imperial">Fahrenheit</option>
+            </select>
+        </section>
+    </main>
+    <footer class="foot">
+        &copy; 2023 Weather App
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

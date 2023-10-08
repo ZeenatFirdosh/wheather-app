@@ -1,0 +1,127 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  
+  header {
+    background-color: #042a43;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  h1 {
+    font-size: 2rem;
+  }
+  
+  /* Search Section */
+  #search-section {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #location-input {
+    padding: 10px;
+    width: 50%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  #get-weather-button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  #get-weather-button:hover {
+    background-color: #2184b8;
+  }
+  
+  /* Weather Section */
+  #weather-section {
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    margin-top: 0;
+  }
+  
+  p {
+    font-size: 1.2rem;
+  }
+  
+  /* Error Section */
+  #error-section {
+    text-align: center;
+    color: #e74c3c;
+    margin-top: 20px;
+  }
+  
+  /* Unit Selection Section */
+  #unit-selection-section {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  label {
+    font-size: 1.2rem;
+  }
+  
+  #unit-toggle {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.8rem;
+    color: #777;
+  }
+  
+  /* Geolocation Button */
+  #geolocation-button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-left: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  #geolocation-button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Responsive Design */
+  @media screen and (max-width: 768px) {
+    #location-input {
+        width: 100%;
+    }
+  }
+  
